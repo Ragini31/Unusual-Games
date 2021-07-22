@@ -1,0 +1,93 @@
+*{margin: auto;align-items: center;vertical-align: middle
+  ;}
+body{
+  background-color: #5d0e64;
+}
+
+.container {
+  
+    width: 500px;
+    align-content: center;
+  }
+  
+  .grid {
+    padding: 1%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2c2a2a;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 10px solid #2c053f;
+    margin-bottom: 30px;
+    border-radius: 7%;
+  }
+  
+  div {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    
+  }
+  .valid {
+    height: 40px;
+    width: 40px;
+    border: 3px solid;
+    border-color: #e2dbff #2b2838 #303953 #e2dbff;
+    border-radius: 50%;
+    background-color: #aa0aca;
+    box-sizing: border-box;
+  }
+  .valid:hover{
+      border: 3px solid  rgb(22, 2, 22);
+      border-radius:50% ;
+      background-color: rgb(199, 8, 186);
+  
+  }
+
+  .checked {
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    background-color: #f1d8eb;
+    border-color: #2d133b;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+ 
+  .bomb {
+    background-color: #aa0aca;
+    height: 40px;
+    width: 40px;
+    border: 3px solid;
+    border-color: #e2dbff #2b2838 #303953 #e2dbff;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  .bomb:hover{
+    border: 3px solid  rgb(22, 2, 22);
+    border-radius:50% ;
+    background-color: rgb(187, 53, 178);
+
+}
+  .one {
+    color: #042926;
+  }
+  
+  .two {
+    color: #109c89;
+  }
+  
+  .three {
+    color: #0a6970;
+  }
+  
+  .four{
+    color: #054444;
+  }
+  
+  #result {
+    margin-top: 5px;
+    color: #46e7da;
+  }
